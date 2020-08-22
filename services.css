@@ -1,0 +1,199 @@
+body{
+    background:white;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+/*Table*/
+
+body h3{
+    margin-top: 0;
+}
+.activities span{
+    float: right;
+	display: inline-block;
+    padding: 0 2% 0 2%;
+    margin: 0 1% 0 1%;
+}
+
+.activities span a{
+	text-decoration: none;
+	color: currentColor;
+    
+}
+
+.activities span a:hover{
+	color: aliceblue;
+	text-decoration: underline;
+}
+
+
+.activities{
+    width: 96%;
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(36, 36, 30);
+    color: aliceblue;
+}
+
+caption{
+    text-align: left;
+    font-family: cursive;
+}
+
+table{
+    width: 80%;
+    text-align: left;
+    width: 90%;
+}
+
+table, td{  
+    line-height: 1.2em;
+}
+
+/*Programmes*/
+
+.program{
+   background: rgb(234, 234,234);
+   width: 96%;
+   margin: 1%;
+   padding: 1%;
+   line-height: 1.6em;
+   letter-spacing: 0.01em;
+   font-family: Arial Unicode MS, Arial;
+}
+
+.program p:nth-child(even){
+    background: rgb(193, 193, 193);
+}
+
+.program p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#h3{
+     margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*footer*/
+
+footer{
+    width: 96%;
+    margin: 1%;
+    padding: 1%;
+    background: rgb(235, 235, 235);
+}
+
+footer h4{
+    font-weight: 800;
+    font-family: Candara, Arial;
+    font-size: 1.3em;
+}
+
+footer:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.ul{
+    display: inline-block;
+    text-transform: capitalize;
+    float: right;
+    text-align: center;
+    padding: 0 3% 0 3%;
+    margin: 0 2% 0 2%;
+    font-family: Kristen ITC, MV Boli, Arial;
+    font-weight: 800;
+}
+
+.ul a{
+    text-decoration: none;
+}
+
+.ul a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+.link{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-family: Forte, Bradley Hand ITC, Arial;
+    font-weight: 400;
+}
+
+.link:hover{
+     color: #000;
+    text-decoration: underline;
+}
+
+.span{
+    display: inline-block;
+    float: left;
+    margin: 2% 5%;
+    line-height: 1em;
+}
+
+.h4{
+    margin-bottom: 7%;
+}
+
+footer div:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+
+.img{
+     background: rgb(27, 27, 27);
+    float: left;
+    margin-right: 3%;
+}
+
+#special h5{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#special p{
+   margin-top: 0;
+    margin-bottom: 0;
+  
+}
+
+#special div{
+    line-height: 1.5em;
+}
+
+#specialII{
+    line-height: 1.9em;
+    
+}
+
+#input{
+    width: 70%;
+    height: 20px;
+    margin-right: 0;
+}
+
+#button{
+    margin-left: 0;
+    height: 26px;
+}
+
+#last-child{
+    text-align: center;
+    background: rgb(144, 144, 144);
+    font-family: MV Boli, Agency FB, Arial;
+    font-size: 500;
+}
+
+#specialspan{
+    padding: 0 2% 0 2%;
+}
+
+#specialspan:hover{
+    opacity: 0.4;
+}
